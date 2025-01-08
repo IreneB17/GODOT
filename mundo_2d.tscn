@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://4rbutywakdvg"]
+
+[node name="mundo 2d" type="Node"]
+
+[node name="TileMap" type="TileMap" parent="."]
+format = 2
+
+[node name="jugador" type="Node" parent="."]
+
+[node name="recolectables" type="Node" parent="."]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer4"]
+
+[node name="ParallaxLayer5" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer5"]
+
+[node name="ParallaxLayer6" type="ParallaxLayer" parent="ParallaxBackground"]
